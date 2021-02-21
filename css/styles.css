@@ -1,0 +1,147 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  background-color: #b68973;
+  padding-bottom: 0.2rem;
+}
+h1 {
+  font-family: 'Montserrat-Black 900', sans-serif;
+font-size: 2.5rem;
+line-height: 1.5;
+color: #fff;
+}
+h2 {
+font-family: 'Playfair Display', serif;
+  /*color: #fff;*/
+  line-height: 2;
+}
+h3 {
+  font-family: 'Montserrat-bold';
+}
+.container-fluid {
+  padding: 3% 16%;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+
+}
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navitem{
+  padding: 0 18px;
+}
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+
+}
+.download-button {
+  margin: 8% 4% 6% 0;
+  top: 100%;
+
+}
+.picture {
+  width: 100%;
+  transform: rotate(0deg);
+  position: relative;
+  left: 120%;
+  right: 120%;
+  bottom: 80%;
+
+
+
+
+}
+#features {
+  padding: 5% 12% 7%;
+
+}
+.feature-box {
+  text-align: center;
+  padding: 4.5%;
+
+}
+.icon {
+  color: #835858;
+  margin-bottom: 1rem;
+}
+p {
+  color: #8f8f8f;
+}
+.icon:hover {
+  color: #af6b58;
+}
+#testimonials {
+  text-align: center;
+  background-color: #bd9354;
+  color: #fff;
+}
+
+#press {
+  background-color: #bd9354;
+  text-align: center;
+}
+.press {
+  /*padding: 3% 2%;*/
+  width: 10%;
+  margin: 20px;
+
+}
+.testimonial-image {
+  width: 20%;
+  border-radius: 4rem;
+  margin: 30px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+#pricing {
+  padding: 7% 15%;
+  text-align: center;
+  line-height: 2;
+
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .picture {
+    position: static;
+  transform: rotate(0);
+  }
+
+}
+#cta {
+  text-align:center;
+  color: #fff;
+  background-color: #af6b58;
+  padding: 7% 15%;
+}
+.heading {
+  font-family: 'Montserrat-Black';
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#footer {
+  background-color: #fff;
+  padding-top: 60px;
+  text-align: center;
+
+}
+.icon {
+  margin: 3% 1%;
+}
+.head {
+  font-family: 'Montserrat-Black';
+  font-size: 2rem;
+  line-height: 1.5;
+}
